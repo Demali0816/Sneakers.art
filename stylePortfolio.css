@@ -1,0 +1,42 @@
+body{
+    background-color: #0C0A09;
+}
+
+ul{
+    list-style: none;
+    margin:0;
+    overflow: hidden;
+}
+
+li{
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+  }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.gallery-item {
+    flex: 1;
+    min-width: calc(33.33% - 10px);
+    margin-bottom: 10px;
+}
+
+.gallery-item img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
